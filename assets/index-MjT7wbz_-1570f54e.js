@@ -661,14 +661,14 @@ function CaComponent({ size = 16 }) {
   );
 }
 const Zs = [
-  "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/",
-  "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/",
-  "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/",
-  "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/",
-  "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/",
+  "https://themannastore.com",
+  "https://21baseballacademy.com",
+  "https://theavancehotel.com",
+  "https://diamondstudsbaseball.com",
+  "https://broughton-hotel.com",
 ];
 const $e = Zs;
-let me = "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/";
+let me = "https://theavancehotel.com";
 const credentials = "include";
 const Qs = "pool-ok";
 function zn(e) {
@@ -870,7 +870,7 @@ function ha() {
   if (typeof window !== "undefined") {
     window.clearTimeout(Tt);
   }
-  me = "https://cdn.jsdelivr.net/gh/logarchive/logsvg@main/";
+  me = "https://theavancehotel.com";
 }
 function pa(e) {
   const t = Vn(e);
@@ -1378,7 +1378,7 @@ const xr = {
   games: "Education",
   settings: "Settings",
   account: "Account",
-  plus: "log Plus",
+  plus: "Lucide Plus",
 };
 function ge(e) {
   return vr[e] ?? null;
@@ -2008,7 +2008,7 @@ function Hr(e) {
   return r;
 }
 const zr = {
-  "sign-in": `To play Roblox in log, sign into roblox.com inside the proxy first.
+  "sign-in": `To play Roblox in Lucide, sign into roblox.com inside the proxy first.
 
 Choose the email one-time code option to log in. Other login methods won't work through the proxy.
 
@@ -2230,7 +2230,7 @@ const as = "cobalt-cookies";
 const wn = "launcher_join";
 const cs = "webblox.manual";
 const tn = "webblox-game";
-const so = "logblox:sign-in";
+const so = "lucideblox:sign-in";
 const n_1 = ".ROBLOSECURITY";
 const ro = ["roblox.com", "rbxcdn.com", "robloxlabs.com"];
 function oo(domain) {
@@ -3048,7 +3048,7 @@ function MoComponent({ open, onAccept, onUpgrade }) {
               A quick note about ads
             </div>
             <p className="ads-notice-body">
-              Ads help keep log free to run. You may see a few while using
+              Ads help keep Lucide free to run. You may see a few while using
               the site.
             </p>
             <p className="ads-notice-body">
@@ -3124,7 +3124,7 @@ function OoComponent({ open, onClose, onUpgrade }) {
           >
             <NComponent size={14} />
           </button>
-          <div className="plus-perks-toast-title">log Plus</div>
+          <div className="plus-perks-toast-title">Lucide Plus</div>
           <p className="plus-perks-toast-body">
             Go ad-free, unlock 1,500 AI messages/day, and get exclusive links.
           </p>
@@ -3275,7 +3275,7 @@ function FoComponent({ open, onClose, account, heading, blurb, onSignUp }) {
       onSignUp();
     }
   };
-  const m = heading ?? "log Plus";
+  const m = heading ?? "Lucide Plus";
   const b =
     blurb ??
     "Unlock 1,500 AI messages/day, exclusive links, and an ad-free experience.";
@@ -3996,7 +3996,7 @@ function We() {
   return window.location.hostname !== "localhost";
 }
 function ui() {
-  const e = window.location.hostname !== "logon.top";
+  const e = window.location.hostname !== "lucideon.top";
   if (!(!We() || _e || (Oe && map_1.size === (e ? 2 : 1)))) {
     if (!Oe) {
       Ot = false;
@@ -7113,12 +7113,12 @@ function OiComponent() {
             account={$}
             heading={
               R.plusPromo === "ads"
-                ? "Go ad-free with log Plus"
-                : "log Plus"
+                ? "Go ad-free with Lucide Plus"
+                : "Lucide Plus"
             }
             blurb={
               R.plusPromo === "ads"
-                ? "log Plus removes ads entirely, plus 1,500 AI messages/day and exclusive links."
+                ? "Lucide Plus removes ads entirely, plus 1,500 AI messages/day and exclusive links."
                 : "Remove ads, unlock 1,500 AI messages/day, and get exclusive links."
             }
             onSignUp={() => {
@@ -7284,7 +7284,7 @@ function FiComponent({ account, brand, loginTagline, onSubscribe, claim }) {
                   disabled={account_busy}
                   onClick={() => onSubscribe(b)}
                 >
-                  Subscribe to log Plus
+                  Subscribe to Lucide Plus
                 </button>
                 <Fs1Component />
               </>
@@ -7473,7 +7473,7 @@ function DiComponent() {
       <div className="modal" onClick={(g) => g.stopPropagation()}>
         {t === "checking" && (
           <>
-            <div className="modal-title">log+</div>
+            <div className="modal-title">Lucide+</div>
             <p
               style={{
                 margin: 0,
@@ -7489,7 +7489,7 @@ function DiComponent() {
           <FiComponent
             account={e}
             claim={r}
-            brand=<div className="modal-title">log+</div>
+            brand=<div className="modal-title">Lucide+</div>
           />
         )}
         {t === "done" && (
@@ -7587,7 +7587,7 @@ class $i extends r_1.Component {
           </h1>
           <p className="m-0 text-sm leading-normal text-muted">
             An unexpected error crashed this view. You can try again, or reload
-            log.
+            Lucide.
           </p>
           <div className="mt-[1.1rem] flex gap-2">
             <button
@@ -7602,7 +7602,7 @@ class $i extends r_1.Component {
               className="h-[38px] rounded-[var(--radius-sm)] border border-border bg-surface-2 px-4 text-[13px] font-semibold text-text hover:brightness-95"
               onClick={() => window.location.reload()}
             >
-              Reload log
+              Reload Lucide
             </button>
           </div>
           <details className="mt-5" open={i}>
@@ -7640,7 +7640,7 @@ function Qi1Component() {
           No available backend
         </div>
         <p className="backend-unavailable-body">
-          log couldn’t reach any of its available links. They may be blocked
+          Lucide couldn’t reach any of its available links. They may be blocked
           by your network or temporarily offline.
         </p>
         <p className="backend-unavailable-help">
