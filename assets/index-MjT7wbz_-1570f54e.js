@@ -2010,7 +2010,7 @@ function Hr(e) {
 const zr = {
   "sign-in": `To play Roblox in Lucide, sign into roblox.com inside the proxy first.
 
-Choose the email one-time code option to Lucide in. Other login methods won't work through the proxy.
+Choose the email one-time code option to log in. Other login methods won't work through the proxy.
 
 Once you're signed in, press Play on any game and it opens in a new window.`,
   "popup-blocked": "Allow popups for this site and press Play again.",
