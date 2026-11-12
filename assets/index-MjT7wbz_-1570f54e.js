@@ -1378,7 +1378,7 @@ const xr = {
   games: "Education",
   settings: "Settings",
   account: "Account",
-  plus: "Lucide Plus",
+  plus: "log Plus",
 };
 function ge(e) {
   return vr[e] ?? null;
@@ -2008,7 +2008,7 @@ function Hr(e) {
   return r;
 }
 const zr = {
-  "sign-in": `To play Roblox in Lucide, sign into roblox.com inside the proxy first.
+  "sign-in": `To play Roblox in log, sign into roblox.com inside the proxy first.
 
 Choose the email one-time code option to log in. Other login methods won't work through the proxy.
 
@@ -3048,7 +3048,7 @@ function MoComponent({ open, onAccept, onUpgrade }) {
               A quick note about ads
             </div>
             <p className="ads-notice-body">
-              Ads help keep Lucide free to run. You may see a few while using
+              Ads help keep log free to run. You may see a few while using
               the site.
             </p>
             <p className="ads-notice-body">
@@ -3124,7 +3124,7 @@ function OoComponent({ open, onClose, onUpgrade }) {
           >
             <NComponent size={14} />
           </button>
-          <div className="plus-perks-toast-title">Lucide Plus</div>
+          <div className="plus-perks-toast-title">log Plus</div>
           <p className="plus-perks-toast-body">
             Go ad-free, unlock 1,500 AI messages/day, and get exclusive links.
           </p>
@@ -3275,7 +3275,7 @@ function FoComponent({ open, onClose, account, heading, blurb, onSignUp }) {
       onSignUp();
     }
   };
-  const m = heading ?? "Lucide Plus";
+  const m = heading ?? "log Plus";
   const b =
     blurb ??
     "Unlock 1,500 AI messages/day, exclusive links, and an ad-free experience.";
@@ -7113,12 +7113,12 @@ function OiComponent() {
             account={$}
             heading={
               R.plusPromo === "ads"
-                ? "Go ad-free with Lucide Plus"
-                : "Lucide Plus"
+                ? "Go ad-free with log Plus"
+                : "log Plus"
             }
             blurb={
               R.plusPromo === "ads"
-                ? "Lucide Plus removes ads entirely, plus 1,500 AI messages/day and exclusive links."
+                ? "log Plus removes ads entirely, plus 1,500 AI messages/day and exclusive links."
                 : "Remove ads, unlock 1,500 AI messages/day, and get exclusive links."
             }
             onSignUp={() => {
@@ -7284,7 +7284,7 @@ function FiComponent({ account, brand, loginTagline, onSubscribe, claim }) {
                   disabled={account_busy}
                   onClick={() => onSubscribe(b)}
                 >
-                  Subscribe to Lucide Plus
+                  Subscribe to log Plus
                 </button>
                 <Fs1Component />
               </>
@@ -7473,7 +7473,7 @@ function DiComponent() {
       <div className="modal" onClick={(g) => g.stopPropagation()}>
         {t === "checking" && (
           <>
-            <div className="modal-title">Lucide+</div>
+            <div className="modal-title">log+</div>
             <p
               style={{
                 margin: 0,
@@ -7489,7 +7489,7 @@ function DiComponent() {
           <FiComponent
             account={e}
             claim={r}
-            brand=<div className="modal-title">Lucide+</div>
+            brand=<div className="modal-title">log+</div>
           />
         )}
         {t === "done" && (
@@ -7587,7 +7587,7 @@ class $i extends r_1.Component {
           </h1>
           <p className="m-0 text-sm leading-normal text-muted">
             An unexpected error crashed this view. You can try again, or reload
-            Lucide.
+            log.
           </p>
           <div className="mt-[1.1rem] flex gap-2">
             <button
@@ -7602,7 +7602,7 @@ class $i extends r_1.Component {
               className="h-[38px] rounded-[var(--radius-sm)] border border-border bg-surface-2 px-4 text-[13px] font-semibold text-text hover:brightness-95"
               onClick={() => window.location.reload()}
             >
-              Reload Lucide
+              Reload log
             </button>
           </div>
           <details className="mt-5" open={i}>
@@ -7640,7 +7640,7 @@ function Qi1Component() {
           No available backend
         </div>
         <p className="backend-unavailable-body">
-          Lucide couldn’t reach any of its available links. They may be blocked
+          log couldn’t reach any of its available links. They may be blocked
           by your network or temporarily offline.
         </p>
         <p className="backend-unavailable-help">
